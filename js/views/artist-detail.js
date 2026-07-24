@@ -16,6 +16,9 @@ export async function renderArtistDetail(view, slug) {
   const typeLabel = artist.type === "person" ? "個人" : "グループ";
   const period = `${artist.begin_year ?? "不明"} 〜 ${artist.end_year ?? "現在"}`;
   const genreLabels = artist.genreIds.map((id) => categoryById.get(id)?.label).filter(Boolean);
+  const albums = artist.albums.filter((item) => ["album", "ep"].includes(releaseType(item)));
+  const singles = artist.albums.filter((item) => releaseType(item) === "single");
+  const selections = artist.albums.filter((item) => releaseType(item) === "selection");
 
   view.innerHTML = `
     <p><a href="#/artists">← アーティスト一覧に戻る</a></p>
@@ -37,10 +40,12 @@ export async function renderArtistDetail(view, slug) {
       </div>
     </div>
 
-    <h2 style="margin-top:28px; font-size:16px;">作品・主要楽曲(${artist.albums.length}件)</h2>
+    <h2 style="margin-top:28px; font-size:16px;">アルバム作品 (${albums.length}件)</h2>
     <div class="discography">
-      ${artist.albums.length ? artist.albums.map((al) => albumRowHtml(artist, al)).join("") : `<p class="empty-hint">登録されているスタジオアルバムがありません。</p>`}
+      ${albums.length ? albums.map((al) => albumRowHtml(artist, al, true)).join("") : `<p class="empty-hint">登録されているアルバムがありません。</p>`}
     </div>
+    ${singles.length ? `<h2 class="release-section-title">シングル (${singles.length}件)</h2><div class="discography">${singles.map((al) => albumRowHtml(artist, al, false)).join("")}</div>` : ""}
+    ${selections.length ? `<h2 class="release-section-title">主要楽曲</h2><div class="discography">${selections.map((al) => albumRowHtml(artist, al, false)).join("")}</div>` : ""}
     ${allSongsHtml(artist)}
   `;
 
@@ -66,7 +71,15 @@ function allSongsHtml(artist) {
   return `<section class="all-songs"><div class="all-songs-head"><h2>全楽曲 <span id="artistSongCount">${titles.length}曲</span></h2><input id="artistSongSearch" type="search" placeholder="このアーティストの曲名を検索…"></div><ol class="all-songs-grid">${titles.map(title => `<li class="all-song-item" data-title="${escapeHtml(title.toLocaleLowerCase("ja"))}"><a href="${spotifySearchUrl(`${artist.name} ${title}`)}" target="_blank" rel="noopener">${escapeHtml(title)}</a></li>`).join("")}</ol></section>`;
 }
 
-function albumRowHtml(artist, album) {
+function releaseType(album) {
+  if (album.release_type) return album.release_type;
+  if (/\s[-–—]\s?single$/i.test(album.title)) return "single";
+  if (/\s[-–—]\s?ep$/i.test(album.title)) return "ep";
+  if (["主要楽曲セレクション", "代表楽曲"].includes(album.title)) return "selection";
+  return "album";
+}
+
+function albumRowHtml(artist, album, showTracks) {
   const query = `${artist.name} ${album.title}`;
   const artwork = album.artwork
     ? `<img class="album-artwork" src="${escapeHtml(album.artwork)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className: 'album-artwork album-artwork-placeholder'}))">`
@@ -82,7 +95,7 @@ function albumRowHtml(artist, album) {
           : album.lineup
           ? `<div class="personnel" style="margin-top:4px; font-size:0.85em; color:var(--text-dim);">推定メンバー(発売年の在籍期間より): ${escapeHtml(album.lineup)}</div>`
           : ""}
-        ${tracklistHtml(album)}
+        ${showTracks ? tracklistHtml(album) : ""}
       </div>
       <div class="album-links">
         <a href="${spotifySearchUrl(query)}" target="_blank" rel="noopener">Spotify</a>

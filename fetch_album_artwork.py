@@ -27,7 +27,8 @@ def catalog(name):
         if not title or not row.get("collectionId") or key in seen: continue
         seen.add(key); date=row.get("releaseDate",""); artwork=row.get("artworkUrl100","")
         if artwork: artwork=artwork.replace("100x100bb","600x600bb")
-        albums.append({"title":title,"year":int(date[:4]) if date[:4].isdigit() else None,"artwork":artwork,"apple_collection_id":row["collectionId"],"tracks":[]})
+        release_type="single" if title.lower().endswith(" - single") else "ep" if title.lower().endswith(" - ep") else "album"
+        albums.append({"title":title,"year":int(date[:4]) if date[:4].isdigit() else None,"release_type":release_type,"artwork":artwork,"apple_collection_id":row["collectionId"],"tracks":[]})
     return sorted(albums,key=lambda x:(x["year"] or 9999,x["title"]))
 
 def main():
