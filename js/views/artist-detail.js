@@ -35,7 +35,7 @@ export async function renderArtistDetail(view, slug) {
           ${isFavorite(artist.mbid) ? "★ お気に入り解除" : "☆ お気に入りに追加"}
         </button>
         <a class="btn" href="${wikipediaJaUrl(artist.name)}" target="_blank" rel="noopener">Wikipedia(日本語版)</a>
-        <a class="btn" href="${spotifySearchUrl(artist.name)}" target="_blank" rel="noopener">Spotifyで検索</a>
+        <a class="btn" href="${spotifySearchUrl(artist.name)}">Spotifyで検索</a>
         <a class="btn" href="${appleMusicSearchUrl(artist.name)}" target="_blank" rel="noopener">Apple Musicで検索</a>
       </div>
     </div>
@@ -68,7 +68,7 @@ function allSongsHtml(artist) {
   const titles = [...(artist.songs || []), ...(artist.albums || []).flatMap(a => (a.tracks || []).map(t => t.title))]
     .filter(title => { const key = title.toLocaleLowerCase("ja"); if (seen.has(key)) return false; seen.add(key); return true; });
   if (!titles.length) return `<section class="all-songs"><h2>全楽曲</h2><p class="empty-hint">全曲データは収集中です。</p></section>`;
-  return `<section class="all-songs"><div class="all-songs-head"><h2>全楽曲 <span id="artistSongCount">${titles.length}曲</span></h2><input id="artistSongSearch" type="search" placeholder="このアーティストの曲名を検索…"></div><ol class="all-songs-grid">${titles.map(title => `<li class="all-song-item" data-title="${escapeHtml(title.toLocaleLowerCase("ja"))}"><a href="${spotifySearchUrl(`${artist.name} ${title}`)}" target="_blank" rel="noopener">${escapeHtml(title)}</a></li>`).join("")}</ol></section>`;
+  return `<section class="all-songs"><div class="all-songs-head"><h2>全楽曲 <span id="artistSongCount">${titles.length}曲</span></h2><input id="artistSongSearch" type="search" placeholder="このアーティストの曲名を検索…"></div><ol class="all-songs-grid">${titles.map(title => `<li class="all-song-item" data-title="${escapeHtml(title.toLocaleLowerCase("ja"))}"><a href="${spotifySearchUrl(`${artist.name} ${title}`)}">${escapeHtml(title)}</a></li>`).join("")}</ol></section>`;
 }
 
 function releaseType(album) {
@@ -98,7 +98,7 @@ function albumRowHtml(artist, album, showTracks) {
         ${showTracks ? tracklistHtml(album) : ""}
       </div>
       <div class="album-links">
-        <a href="${spotifySearchUrl(query)}" target="_blank" rel="noopener">Spotify</a>
+        <a href="${spotifySearchUrl(query)}">Spotify</a>
         <a href="${appleMusicSearchUrl(query)}" target="_blank" rel="noopener">Apple Music</a>
       </div>
     </div>
