@@ -1,0 +1,1322 @@
+[
+  {
+    "mbid": "jp-001",
+    "name": "Hibari Misora"
+  },
+  {
+    "mbid": "jp-002",
+    "name": "Kyu Sakamoto"
+  },
+  {
+    "mbid": "jp-003",
+    "name": "Happy End"
+  },
+  {
+    "mbid": "jp-004",
+    "name": "Yumi Arai / Yumi Matsutoya"
+  },
+  {
+    "mbid": "jp-005",
+    "name": "Tatsuro Yamashita"
+  },
+  {
+    "mbid": "jp-006",
+    "name": "Taeko Onuki"
+  },
+  {
+    "mbid": "jp-007",
+    "name": "Southern All Stars"
+  },
+  {
+    "mbid": "jp-008",
+    "name": "Yellow Magic Orchestra"
+  },
+  {
+    "mbid": "jp-009",
+    "name": "Miyuki Nakajima"
+  },
+  {
+    "mbid": "jp-010",
+    "name": "Off Course"
+  },
+  {
+    "mbid": "jp-011",
+    "name": "Seiko Matsuda"
+  },
+  {
+    "mbid": "jp-012",
+    "name": "Akina Nakamori"
+  },
+  {
+    "mbid": "jp-013",
+    "name": "BOØWY"
+  },
+  {
+    "mbid": "jp-014",
+    "name": "REBECCA"
+  },
+  {
+    "mbid": "jp-015",
+    "name": "THE BLUE HEARTS"
+  },
+  {
+    "mbid": "jp-016",
+    "name": "TM NETWORK"
+  },
+  {
+    "mbid": "jp-017",
+    "name": "DREAMS COME TRUE"
+  },
+  {
+    "mbid": "jp-018",
+    "name": "B'z"
+  },
+  {
+    "mbid": "jp-019",
+    "name": "UNICORN"
+  },
+  {
+    "mbid": "jp-020",
+    "name": "Spitz"
+  },
+  {
+    "mbid": "jp-021",
+    "name": "Mr.Children"
+  },
+  {
+    "mbid": "jp-022",
+    "name": "Tetsuya Komuro"
+  },
+  {
+    "mbid": "jp-023",
+    "name": "Namie Amuro"
+  },
+  {
+    "mbid": "jp-024",
+    "name": "Hikaru Utada"
+  },
+  {
+    "mbid": "jp-025",
+    "name": "Ringo Sheena"
+  },
+  {
+    "mbid": "jp-026",
+    "name": "Ayumi Hamasaki"
+  },
+  {
+    "mbid": "jp-027",
+    "name": "L'Arc〜en〜Ciel"
+  },
+  {
+    "mbid": "jp-028",
+    "name": "GLAY"
+  },
+  {
+    "mbid": "jp-029",
+    "name": "Yuzu"
+  },
+  {
+    "mbid": "jp-030",
+    "name": "aiko"
+  },
+  {
+    "mbid": "jp-031",
+    "name": "Quruli"
+  },
+  {
+    "mbid": "jp-032",
+    "name": "BUMP OF CHICKEN"
+  },
+  {
+    "mbid": "jp-033",
+    "name": "Perfume"
+  },
+  {
+    "mbid": "jp-034",
+    "name": "ASIAN KUNG-FU GENERATION"
+  },
+  {
+    "mbid": "jp-035",
+    "name": "Sakanaction"
+  },
+  {
+    "mbid": "jp-036",
+    "name": "Gen Hoshino"
+  },
+  {
+    "mbid": "jp-037",
+    "name": "AKB48"
+  },
+  {
+    "mbid": "jp-038",
+    "name": "Momoiro Clover Z"
+  },
+  {
+    "mbid": "jp-039",
+    "name": "ONE OK ROCK"
+  },
+  {
+    "mbid": "jp-040",
+    "name": "Kyary Pamyu Pamyu"
+  },
+  {
+    "mbid": "jp-041",
+    "name": "Kenshi Yonezu"
+  },
+  {
+    "mbid": "jp-042",
+    "name": "Suchmos"
+  },
+  {
+    "mbid": "jp-043",
+    "name": "Official HIGE DANdism"
+  },
+  {
+    "mbid": "jp-044",
+    "name": "King Gnu"
+  },
+  {
+    "mbid": "jp-045",
+    "name": "YOASOBI"
+  },
+  {
+    "mbid": "jp-046",
+    "name": "Fujii Kaze"
+  },
+  {
+    "mbid": "jp-047",
+    "name": "Ado"
+  },
+  {
+    "mbid": "jp-048",
+    "name": "Creepy Nuts"
+  },
+  {
+    "mbid": "curated-001",
+    "name": "Yujiro Ishihara"
+  },
+  {
+    "mbid": "curated-002",
+    "name": "The Peanuts"
+  },
+  {
+    "mbid": "curated-003",
+    "name": "Yuzo Kayama"
+  },
+  {
+    "mbid": "curated-004",
+    "name": "Sayuri Yoshinaga"
+  },
+  {
+    "mbid": "curated-005",
+    "name": "Yukio Hashi"
+  },
+  {
+    "mbid": "curated-006",
+    "name": "Kazuo Funaki"
+  },
+  {
+    "mbid": "curated-007",
+    "name": "Teruhiko Saigo"
+  },
+  {
+    "mbid": "curated-008",
+    "name": "The Spiders"
+  },
+  {
+    "mbid": "curated-009",
+    "name": "The Tigers"
+  },
+  {
+    "mbid": "curated-010",
+    "name": "The Tempters"
+  },
+  {
+    "mbid": "curated-011",
+    "name": "Jackey Yoshikawa and His Blue Comets"
+  },
+  {
+    "mbid": "curated-012",
+    "name": "Ryoko Moriyama"
+  },
+  {
+    "mbid": "curated-013",
+    "name": "Nobuyasu Okabayashi"
+  },
+  {
+    "mbid": "curated-014",
+    "name": "Wataru Takada"
+  },
+  {
+    "mbid": "curated-015",
+    "name": "Takuro Yoshida"
+  },
+  {
+    "mbid": "curated-016",
+    "name": "Yosui Inoue"
+  },
+  {
+    "mbid": "curated-017",
+    "name": "Shigeru Izumiya"
+  },
+  {
+    "mbid": "curated-018",
+    "name": "Kaguyahime"
+  },
+  {
+    "mbid": "curated-019",
+    "name": "Tulip"
+  },
+  {
+    "mbid": "curated-020",
+    "name": "Alice"
+  },
+  {
+    "mbid": "curated-021",
+    "name": "Kaientai"
+  },
+  {
+    "mbid": "curated-022",
+    "name": "Yoko Ono"
+  },
+  {
+    "mbid": "curated-023",
+    "name": "Eikichi Yazawa"
+  },
+  {
+    "mbid": "curated-024",
+    "name": "Carol"
+  },
+  {
+    "mbid": "curated-025",
+    "name": "Godiego"
+  },
+  {
+    "mbid": "curated-026",
+    "name": "Pink Lady"
+  },
+  {
+    "mbid": "curated-027",
+    "name": "Candies"
+  },
+  {
+    "mbid": "curated-028",
+    "name": "Momoe Yamaguchi"
+  },
+  {
+    "mbid": "curated-029",
+    "name": "Hiromi Iwasaki"
+  },
+  {
+    "mbid": "curated-030",
+    "name": "Hiromi Go"
+  },
+  {
+    "mbid": "curated-031",
+    "name": "Hideki Saijo"
+  },
+  {
+    "mbid": "curated-032",
+    "name": "Goro Noguchi"
+  },
+  {
+    "mbid": "curated-033",
+    "name": "Kenji Sawada"
+  },
+  {
+    "mbid": "curated-034",
+    "name": "Akira Fuse"
+  },
+  {
+    "mbid": "curated-035",
+    "name": "Junko Yagami"
+  },
+  {
+    "mbid": "curated-036",
+    "name": "Mariya Takeuchi"
+  },
+  {
+    "mbid": "curated-037",
+    "name": "Anri"
+  },
+  {
+    "mbid": "curated-038",
+    "name": "Toshiki Kadomatsu"
+  },
+  {
+    "mbid": "curated-039",
+    "name": "Kiyotaka Sugiyama & Omega Tribe"
+  },
+  {
+    "mbid": "curated-040",
+    "name": "Junichi Inagaki"
+  },
+  {
+    "mbid": "curated-041",
+    "name": "Akira Terao"
+  },
+  {
+    "mbid": "curated-042",
+    "name": "Yoshitaka Minami"
+  },
+  {
+    "mbid": "curated-043",
+    "name": "Minako Yoshida"
+  },
+  {
+    "mbid": "curated-044",
+    "name": "Tomoko Aran"
+  },
+  {
+    "mbid": "curated-045",
+    "name": "Anzen Chitai"
+  },
+  {
+    "mbid": "curated-046",
+    "name": "Koji Tamaki"
+  },
+  {
+    "mbid": "curated-047",
+    "name": "CHAGE and ASKA"
+  },
+  {
+    "mbid": "curated-048",
+    "name": "Eiichi Ohtaki"
+  },
+  {
+    "mbid": "curated-049",
+    "name": "Haruomi Hosono"
+  },
+  {
+    "mbid": "curated-050",
+    "name": "Ryuichi Sakamoto"
+  },
+  {
+    "mbid": "curated-051",
+    "name": "Yukihiro Takahashi"
+  },
+  {
+    "mbid": "curated-052",
+    "name": "Motoharu Sano"
+  },
+  {
+    "mbid": "curated-053",
+    "name": "Senri Oe"
+  },
+  {
+    "mbid": "curated-054",
+    "name": "Misato Watanabe"
+  },
+  {
+    "mbid": "curated-055",
+    "name": "Yutaka Ozaki"
+  },
+  {
+    "mbid": "curated-056",
+    "name": "Shogo Hamada"
+  },
+  {
+    "mbid": "curated-057",
+    "name": "Tsuyoshi Nagabuchi"
+  },
+  {
+    "mbid": "curated-058",
+    "name": "THE ALFEE"
+  },
+  {
+    "mbid": "curated-059",
+    "name": "Checkers"
+  },
+  {
+    "mbid": "curated-060",
+    "name": "Komekome Club"
+  },
+  {
+    "mbid": "curated-061",
+    "name": "Princess Princess"
+  },
+  {
+    "mbid": "curated-062",
+    "name": "PERSONZ"
+  },
+  {
+    "mbid": "curated-063",
+    "name": "LINDBERG"
+  },
+  {
+    "mbid": "curated-064",
+    "name": "JUN SKY WALKER(S)"
+  },
+  {
+    "mbid": "curated-065",
+    "name": "THE BOOM"
+  },
+  {
+    "mbid": "curated-066",
+    "name": "Denki Groove"
+  },
+  {
+    "mbid": "curated-067",
+    "name": "Pizzicato Five"
+  },
+  {
+    "mbid": "curated-068",
+    "name": "Flipper's Guitar"
+  },
+  {
+    "mbid": "curated-069",
+    "name": "Kenji Ozawa"
+  },
+  {
+    "mbid": "curated-070",
+    "name": "Original Love"
+  },
+  {
+    "mbid": "curated-071",
+    "name": "Cornelius"
+  },
+  {
+    "mbid": "curated-072",
+    "name": "Fishmans"
+  },
+  {
+    "mbid": "curated-073",
+    "name": "UA"
+  },
+  {
+    "mbid": "curated-074",
+    "name": "CHARA"
+  },
+  {
+    "mbid": "curated-075",
+    "name": "MISIA"
+  },
+  {
+    "mbid": "curated-076",
+    "name": "Toshinobu Kubota"
+  },
+  {
+    "mbid": "curated-077",
+    "name": "Ken Hirai"
+  },
+  {
+    "mbid": "curated-078",
+    "name": "CHEMISTRY"
+  },
+  {
+    "mbid": "curated-079",
+    "name": "SPEED"
+  },
+  {
+    "mbid": "curated-080",
+    "name": "globe"
+  },
+  {
+    "mbid": "curated-081",
+    "name": "TRF"
+  },
+  {
+    "mbid": "curated-082",
+    "name": "Tomomi Kahala"
+  },
+  {
+    "mbid": "curated-083",
+    "name": "Every Little Thing"
+  },
+  {
+    "mbid": "curated-084",
+    "name": "My Little Lover"
+  },
+  {
+    "mbid": "curated-085",
+    "name": "JUDY AND MARY"
+  },
+  {
+    "mbid": "curated-086",
+    "name": "THE YELLOW MONKEY"
+  },
+  {
+    "mbid": "curated-087",
+    "name": "X JAPAN"
+  },
+  {
+    "mbid": "curated-088",
+    "name": "LUNA SEA"
+  },
+  {
+    "mbid": "curated-089",
+    "name": "BUCK-TICK"
+  },
+  {
+    "mbid": "curated-090",
+    "name": "hide"
+  },
+  {
+    "mbid": "curated-091",
+    "name": "Kuroyume"
+  },
+  {
+    "mbid": "curated-092",
+    "name": "SOPHIA"
+  },
+  {
+    "mbid": "curated-093",
+    "name": "Dragon Ash"
+  },
+  {
+    "mbid": "curated-094",
+    "name": "RIP SLYME"
+  },
+  {
+    "mbid": "curated-095",
+    "name": "m-flo"
+  },
+  {
+    "mbid": "curated-096",
+    "name": "KICK THE CAN CREW"
+  },
+  {
+    "mbid": "curated-097",
+    "name": "RHYMESTER"
+  },
+  {
+    "mbid": "curated-098",
+    "name": "Scha Dara Parr"
+  },
+  {
+    "mbid": "curated-099",
+    "name": "ZEEBRA"
+  },
+  {
+    "mbid": "curated-100",
+    "name": "Ketsumeishi"
+  },
+  {
+    "mbid": "curated-101",
+    "name": "Porno Graffitti"
+  },
+  {
+    "mbid": "curated-102",
+    "name": "Tokyo Ska Paradise Orchestra"
+  },
+  {
+    "mbid": "curated-103",
+    "name": "BRAHMAN"
+  },
+  {
+    "mbid": "curated-104",
+    "name": "Hi-STANDARD"
+  },
+  {
+    "mbid": "curated-105",
+    "name": "ELLEGARDEN"
+  },
+  {
+    "mbid": "curated-106",
+    "name": "10-FEET"
+  },
+  {
+    "mbid": "curated-107",
+    "name": "MONGOL800"
+  },
+  {
+    "mbid": "curated-108",
+    "name": "HY"
+  },
+  {
+    "mbid": "curated-109",
+    "name": "ORANGE RANGE"
+  },
+  {
+    "mbid": "curated-110",
+    "name": "Remioromen"
+  },
+  {
+    "mbid": "curated-111",
+    "name": "Fujifabric"
+  },
+  {
+    "mbid": "curated-112",
+    "name": "Straightener"
+  },
+  {
+    "mbid": "curated-113",
+    "name": "ACIDMAN"
+  },
+  {
+    "mbid": "curated-114",
+    "name": "RADWIMPS"
+  },
+  {
+    "mbid": "curated-115",
+    "name": "Maximum the Hormone"
+  },
+  {
+    "mbid": "curated-116",
+    "name": "Superfly"
+  },
+  {
+    "mbid": "curated-117",
+    "name": "Ikimonogakari"
+  },
+  {
+    "mbid": "curated-118",
+    "name": "Kobukuro"
+  },
+  {
+    "mbid": "curated-119",
+    "name": "Motohiro Hata"
+  },
+  {
+    "mbid": "curated-120",
+    "name": "Ayaka"
+  },
+  {
+    "mbid": "curated-121",
+    "name": "Mika Nakashima"
+  },
+  {
+    "mbid": "curated-122",
+    "name": "Kumi Koda"
+  },
+  {
+    "mbid": "curated-123",
+    "name": "BoA"
+  },
+  {
+    "mbid": "curated-124",
+    "name": "Ai Otsuka"
+  },
+  {
+    "mbid": "curated-125",
+    "name": "YUI"
+  },
+  {
+    "mbid": "curated-126",
+    "name": "Kaela Kimura"
+  },
+  {
+    "mbid": "curated-127",
+    "name": "AI"
+  },
+  {
+    "mbid": "curated-128",
+    "name": "EXILE"
+  },
+  {
+    "mbid": "curated-129",
+    "name": "Sandaime J Soul Brothers"
+  },
+  {
+    "mbid": "curated-130",
+    "name": "Arashi"
+  },
+  {
+    "mbid": "curated-131",
+    "name": "SMAP"
+  },
+  {
+    "mbid": "curated-132",
+    "name": "KinKi Kids"
+  },
+  {
+    "mbid": "curated-133",
+    "name": "Morning Musume"
+  },
+  {
+    "mbid": "curated-134",
+    "name": "Nogizaka46"
+  },
+  {
+    "mbid": "curated-135",
+    "name": "Keyakizaka46"
+  },
+  {
+    "mbid": "curated-136",
+    "name": "BABYMETAL"
+  },
+  {
+    "mbid": "curated-137",
+    "name": "BiSH"
+  },
+  {
+    "mbid": "curated-138",
+    "name": "SEKAI NO OWARI"
+  },
+  {
+    "mbid": "curated-139",
+    "name": "Gesu no Kiwami Otome"
+  },
+  {
+    "mbid": "curated-140",
+    "name": "Creep Hyp"
+  },
+  {
+    "mbid": "curated-141",
+    "name": "back number"
+  },
+  {
+    "mbid": "curated-142",
+    "name": "Mrs. GREEN APPLE"
+  },
+  {
+    "mbid": "curated-143",
+    "name": "Aimyon"
+  },
+  {
+    "mbid": "curated-144",
+    "name": "Vaundy"
+  },
+  {
+    "mbid": "curated-145",
+    "name": "ZUTOMAYO"
+  },
+  {
+    "mbid": "curated-146",
+    "name": "Yorushika"
+  },
+  {
+    "mbid": "curated-147",
+    "name": "Eve"
+  },
+  {
+    "mbid": "curated-148",
+    "name": "Yuuri"
+  },
+  {
+    "mbid": "curated-149",
+    "name": "Ryokuoushoku Shakai"
+  },
+  {
+    "mbid": "curated-150",
+    "name": "Hitsuji Bungaku"
+  },
+  {
+    "mbid": "curated-151",
+    "name": "Macaroni Enpitsu"
+  },
+  {
+    "mbid": "curated-152",
+    "name": "Saucy Dog"
+  },
+  {
+    "mbid": "curated-153",
+    "name": "ATARASHII GAKKO!"
+  },
+  {
+    "mbid": "curated-154",
+    "name": "Number_i"
+  },
+  {
+    "mbid": "curated-155",
+    "name": "ano"
+  },
+  {
+    "mbid": "curated-156",
+    "name": "Chanmina"
+  },
+  {
+    "mbid": "curated-157",
+    "name": "Awich"
+  },
+  {
+    "mbid": "curated-158",
+    "name": "Nujabes"
+  },
+  {
+    "mbid": "curated-159",
+    "name": "Utamaru"
+  },
+  {
+    "mbid": "curated-160",
+    "name": "Yuta Orisaka"
+  },
+  {
+    "mbid": "curated-161",
+    "name": "Sakura Fujiwara"
+  },
+  {
+    "mbid": "curated-162",
+    "name": "iri"
+  },
+  {
+    "mbid": "curated-163",
+    "name": "STUTS"
+  },
+  {
+    "mbid": "curated-164",
+    "name": "Tempalay"
+  },
+  {
+    "mbid": "curated-165",
+    "name": "WONK"
+  },
+  {
+    "mbid": "curated-166",
+    "name": "Lucky Kilimanjaro"
+  },
+  {
+    "mbid": "curated-167",
+    "name": "Wednesday Campanella"
+  },
+  {
+    "mbid": "curated-168",
+    "name": "DAOKO"
+  },
+  {
+    "mbid": "curated-169",
+    "name": "Reol"
+  },
+  {
+    "mbid": "curated-170",
+    "name": "LiSA"
+  },
+  {
+    "mbid": "curated-171",
+    "name": "Aimer"
+  },
+  {
+    "mbid": "curated-173",
+    "name": "MAN WITH A MISSION"
+  },
+  {
+    "mbid": "curated-174",
+    "name": "UVERworld"
+  },
+  {
+    "mbid": "curated-175",
+    "name": "Alexandros"
+  },
+  {
+    "mbid": "curated-176",
+    "name": "SiM"
+  },
+  {
+    "mbid": "curated-177",
+    "name": "Fear, and Loathing in Las Vegas"
+  },
+  {
+    "mbid": "curated-178",
+    "name": "Queen Bee"
+  },
+  {
+    "mbid": "curated-179",
+    "name": "Uchikubi Gokumon Doukokai"
+  },
+  {
+    "mbid": "curated-180",
+    "name": "Kirinji"
+  },
+  {
+    "mbid": "curated-181",
+    "name": "Hanaregumi"
+  },
+  {
+    "mbid": "curated-182",
+    "name": "Clammbon"
+  },
+  {
+    "mbid": "curated-183",
+    "name": "Sunny Day Service"
+  },
+  {
+    "mbid": "curated-184",
+    "name": "Ayano Kaneko"
+  },
+  {
+    "mbid": "curated-185",
+    "name": "never young beach"
+  },
+  {
+    "mbid": "curated-187",
+    "name": "Awesome City Club"
+  },
+  {
+    "mbid": "curated-188",
+    "name": "TENDRE"
+  },
+  {
+    "mbid": "curated-189",
+    "name": "imase"
+  },
+  {
+    "mbid": "curated-190",
+    "name": "tuki."
+  },
+  {
+    "mbid": "curated-191",
+    "name": "Kocchi no Kento"
+  },
+  {
+    "mbid": "curated-192",
+    "name": "ILLIT"
+  },
+  {
+    "mbid": "curated-193",
+    "name": "XG"
+  },
+  {
+    "mbid": "blues-001",
+    "name": "Yuka Dan"
+  },
+  {
+    "mbid": "blues-002",
+    "name": "Mitsuteru Kimura"
+  },
+  {
+    "mbid": "blues-003",
+    "name": "Kantaro Uchida"
+  },
+  {
+    "mbid": "blues-004",
+    "name": "Masaki Ueda"
+  },
+  {
+    "mbid": "blues-005",
+    "name": "Masaki Ueda and South to South"
+  },
+  {
+    "mbid": "blues-006",
+    "name": "West Road Blues Band"
+  },
+  {
+    "mbid": "blues-007",
+    "name": "Takashi \"Hotoke\" Nagai"
+  },
+  {
+    "mbid": "blues-008",
+    "name": "Shinji Shioji"
+  },
+  {
+    "mbid": "blues-009",
+    "name": "Ryuichiro Senoo"
+  },
+  {
+    "mbid": "blues-010",
+    "name": "Breakdown"
+  },
+  {
+    "mbid": "blues-011",
+    "name": "Fusanosuke Kondo"
+  },
+  {
+    "mbid": "blues-012",
+    "name": "Junji Ariyama"
+  },
+  {
+    "mbid": "blues-013",
+    "name": "Mitsuyoshi Azuma & The Swinging Boppers"
+  },
+  {
+    "mbid": "blues-014",
+    "name": "Roller Coaster"
+  },
+  {
+    "mbid": "blues-015",
+    "name": "Hitoshi Koide"
+  },
+  {
+    "mbid": "blues-016",
+    "name": "Nyudo"
+  },
+  {
+    "mbid": "blues-017",
+    "name": "Tohru Ohki"
+  },
+  {
+    "mbid": "blues-018",
+    "name": "Maki Asakawa"
+  },
+  {
+    "mbid": "blues-019",
+    "name": "Mari Kaneko"
+  },
+  {
+    "mbid": "blues-020",
+    "name": "Mari Kaneko & Backs Bunny"
+  },
+  {
+    "mbid": "blues-021",
+    "name": "Char"
+  },
+  {
+    "mbid": "blues-022",
+    "name": "Johnny, Louis & Char"
+  },
+  {
+    "mbid": "blues-023",
+    "name": "PINK CLOUD"
+  },
+  {
+    "mbid": "blues-024",
+    "name": "Kazuo Takeda"
+  },
+  {
+    "mbid": "blues-025",
+    "name": "Blues Creation"
+  },
+  {
+    "mbid": "blues-026",
+    "name": "Creation"
+  },
+  {
+    "mbid": "blues-027",
+    "name": "George Yanagi"
+  },
+  {
+    "mbid": "blues-028",
+    "name": "George Yanagi & Rainy Wood"
+  },
+  {
+    "mbid": "blues-029",
+    "name": "Osamu Ishida"
+  },
+  {
+    "mbid": "blues-030",
+    "name": "BAHO"
+  },
+  {
+    "mbid": "blues-031",
+    "name": "Junji Yamagishi"
+  },
+  {
+    "mbid": "blues-032",
+    "name": "Kenji Omura"
+  },
+  {
+    "mbid": "blues-033",
+    "name": "Reichi Nakaido (\"CHABO\")"
+  },
+  {
+    "mbid": "blues-034",
+    "name": "Makoto Ayukawa"
+  },
+  {
+    "mbid": "blues-035",
+    "name": "Sun House"
+  },
+  {
+    "mbid": "blues-036",
+    "name": "Sheena & the Rokkets"
+  },
+  {
+    "mbid": "blues-037",
+    "name": "Shinki Chen"
+  },
+  {
+    "mbid": "blues-038",
+    "name": "Power House"
+  },
+  {
+    "mbid": "blues-039",
+    "name": "Shinji Miyake"
+  },
+  {
+    "mbid": "blues-040",
+    "name": "Shunsuke Kikuta"
+  },
+  {
+    "mbid": "blues-041",
+    "name": "Maki Shizusawa"
+  },
+  {
+    "mbid": "blues-042",
+    "name": "Nacomi Tanaka"
+  },
+  {
+    "mbid": "blues-043",
+    "name": "Yoshio Harada"
+  },
+  {
+    "mbid": "blues-044",
+    "name": "Ryudo Uzaki"
+  },
+  {
+    "mbid": "blues-045",
+    "name": "Down Town Boogie Woogie Band"
+  },
+  {
+    "mbid": "blues-046",
+    "name": "Monta & Brothers"
+  },
+  {
+    "mbid": "blues-047",
+    "name": "Masahiro Kuwana"
+  },
+  {
+    "mbid": "blues-048",
+    "name": "BORO"
+  },
+  {
+    "mbid": "v5-001",
+    "name": "Kenji Endo"
+  },
+  {
+    "mbid": "v5-002",
+    "name": "Ryo Kagawa"
+  },
+  {
+    "mbid": "v5-003",
+    "name": "Kazuki Tomokawa"
+  },
+  {
+    "mbid": "v5-004",
+    "name": "Kan Mikami"
+  },
+  {
+    "mbid": "v5-005",
+    "name": "Kenichi Nagira"
+  },
+  {
+    "mbid": "v5-006",
+    "name": "Hitoshi Komuro"
+  },
+  {
+    "mbid": "v5-007",
+    "name": "Rokumonsen"
+  },
+  {
+    "mbid": "v5-008",
+    "name": "Itsutsu no Akai Fusen"
+  },
+  {
+    "mbid": "v5-009",
+    "name": "Akai Tori"
+  },
+  {
+    "mbid": "v5-010",
+    "name": "Garo"
+  },
+  {
+    "mbid": "v5-011",
+    "name": "Fukinoto"
+  },
+  {
+    "mbid": "v5-012",
+    "name": "NSP"
+  },
+  {
+    "mbid": "v5-013",
+    "name": "Masashi Sada"
+  },
+  {
+    "mbid": "v5-014",
+    "name": "Grape"
+  },
+  {
+    "mbid": "v5-015",
+    "name": "Shozo Ise"
+  },
+  {
+    "mbid": "v5-016",
+    "name": "Kosetsu Minami"
+  },
+  {
+    "mbid": "v5-017",
+    "name": "Hako Yamazaki"
+  },
+  {
+    "mbid": "v5-018",
+    "name": "Goro Nakagawa"
+  },
+  {
+    "mbid": "v5-019",
+    "name": "Tetsuo Saito"
+  },
+  {
+    "mbid": "v5-020",
+    "name": "Morio Agata"
+  },
+  {
+    "mbid": "v5-021",
+    "name": "Tomoya Takaishi"
+  },
+  {
+    "mbid": "v5-022",
+    "name": "KEMURI"
+  },
+  {
+    "mbid": "v5-023",
+    "name": "MUTE BEAT"
+  },
+  {
+    "mbid": "v5-024",
+    "name": "THE SKA FLAMES"
+  },
+  {
+    "mbid": "v5-025",
+    "name": "DETERMINATIONS"
+  },
+  {
+    "mbid": "v5-026",
+    "name": "POTSHOT"
+  },
+  {
+    "mbid": "v5-027",
+    "name": "SCAFULL KING"
+  },
+  {
+    "mbid": "v5-028",
+    "name": "RUDE BONES"
+  },
+  {
+    "mbid": "v5-029",
+    "name": "GELUGUGU"
+  },
+  {
+    "mbid": "v5-030",
+    "name": "COOL WISE MEN"
+  },
+  {
+    "mbid": "v5-031",
+    "name": "Oi-SKALL MATES"
+  },
+  {
+    "mbid": "v5-032",
+    "name": "THE MICETEETH"
+  },
+  {
+    "mbid": "v5-033",
+    "name": "DOBERMAN"
+  },
+  {
+    "mbid": "v5-034",
+    "name": "SKA SKA CLUB"
+  },
+  {
+    "mbid": "v5-035",
+    "name": "Yum!Yum!ORANGE"
+  },
+  {
+    "mbid": "v5-036",
+    "name": "Muramasa☆"
+  },
+  {
+    "mbid": "v5-037",
+    "name": "ORESKABAND"
+  },
+  {
+    "mbid": "v5-038",
+    "name": "HEY-SMITH"
+  },
+  {
+    "mbid": "v5-039",
+    "name": "YOUR SONG IS GOOD"
+  },
+  {
+    "mbid": "v5-040",
+    "name": "THE MAN"
+  },
+  {
+    "mbid": "v5-041",
+    "name": "ROLLINGS"
+  },
+  {
+    "mbid": "v5-042",
+    "name": "CHANGE UP"
+  },
+  {
+    "mbid": "v5-043",
+    "name": "FRUITY"
+  }
+]

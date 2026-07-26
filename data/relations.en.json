@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "ymo",
+      "name": "Yellow Magic Orchestra",
+      "type": "group"
+    },
+    {
+      "id": "hosono",
+      "name": "Haruomi Hosono",
+      "type": "person"
+    },
+    {
+      "id": "sakamoto",
+      "name": "Ryuichi Sakamoto",
+      "type": "person"
+    },
+    {
+      "id": "takahashi",
+      "name": "Yukihiro Takahashi",
+      "type": "person"
+    },
+    {
+      "id": "happy",
+      "name": "Happy End",
+      "type": "group"
+    },
+    {
+      "id": "matsutoya",
+      "name": "Yumi Arai / Yumi Matsutoya",
+      "type": "person"
+    },
+    {
+      "id": "onuki",
+      "name": "Taeko Onuki",
+      "type": "person"
+    },
+    {
+      "id": "tatsuro",
+      "name": "Tatsuro Yamashita",
+      "type": "person"
+    },
+    {
+      "id": "tmn",
+      "name": "TM NETWORK",
+      "type": "group"
+    },
+    {
+      "id": "komuro",
+      "name": "Tetsuya Komuro",
+      "type": "person"
+    },
+    {
+      "id": "amuro",
+      "name": "Namie Amuro",
+      "type": "person"
+    },
+    {
+      "id": "perfume",
+      "name": "Perfume",
+      "type": "group"
+    },
+    {
+      "id": "kyary",
+      "name": "Kyary Pamyu Pamyu",
+      "type": "person"
+    },
+    {
+      "id": "nakata",
+      "name": "Yasutaka Nakata",
+      "type": "person"
+    },
+    {
+      "id": "ringo",
+      "name": "Ringo Sheena",
+      "type": "person"
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo Jihen",
+      "type": "group"
+    },
+    {
+      "id": "gen",
+      "name": "Gen Hoshino",
+      "type": "person"
+    },
+    {
+      "id": "yoasobi",
+      "name": "YOASOBI",
+      "type": "group"
+    },
+    {
+      "id": "ayase",
+      "name": "Ayase",
+      "type": "person"
+    },
+    {
+      "id": "ado",
+      "name": "Ado",
+      "type": "person"
+    }
+  ],
+  "links": [
+    {
+      "source": "happy",
+      "target": "hosono",
+      "label": "Member"
+    },
+    {
+      "source": "hosono",
+      "target": "ymo",
+      "label": "Member"
+    },
+    {
+      "source": "sakamoto",
+      "target": "ymo",
+      "label": "Member"
+    },
+    {
+      "source": "takahashi",
+      "target": "ymo",
+      "label": "Member"
+    },
+    {
+      "source": "hosono",
+      "target": "matsutoya",
+      "label": "Performance/Production"
+    },
+    {
+      "source": "sakamoto",
+      "target": "onuki",
+      "label": "Performance/Arrangement"
+    },
+    {
+      "source": "tatsuro",
+      "target": "onuki",
+      "label": "Sugar Babe / Production"
+    },
+    {
+      "source": "komuro",
+      "target": "tmn",
+      "label": "Member"
+    },
+    {
+      "source": "komuro",
+      "target": "amuro",
+      "label": "Produced"
+    },
+    {
+      "source": "nakata",
+      "target": "perfume",
+      "label": "Produced"
+    },
+    {
+      "source": "nakata",
+      "target": "kyary",
+      "label": "Produced"
+    },
+    {
+      "source": "ringo",
+      "target": "tokyo",
+      "label": "Member"
+    },
+    {
+      "source": "ringo",
+      "target": "gen",
+      "label": "Collaboration"
+    },
+    {
+      "source": "ayase",
+      "target": "yoasobi",
+      "label": "Member"
+    },
+    {
+      "source": "ayase",
+      "target": "ado",
+      "label": "Songwriting"
+    }
+  ]
+}
