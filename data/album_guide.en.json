@@ -1,0 +1,261 @@
+{
+  "kayokyoku": [
+    {
+      "artist": "Hibari Misora",
+      "album": "Uta wa Waga Inochi (My Song Is My Life)",
+      "year": 1967,
+      "note": "An overwhelming vocal performance and a gateway to the richness of Shōwa-era kayokyoku. A vocal presence that transcends its era.",
+      "amazon_asin": "B0CXTZXJT5"
+    }
+  ],
+  "folk-newmusic": [
+    {
+      "artist": "Happy End",
+      "album": "Kazemachi Roman",
+      "year": 1971,
+      "note": "The crystallization of the attempt to set Japanese language to rock rhythm. Its influence on everything that followed is immeasurable.",
+      "amazon_asin": "B0CG97PG4K"
+    },
+    {
+      "artist": "Yumi Arai",
+      "album": "Hikōki Gumo (Vapor Trail)",
+      "year": 1973,
+      "note": "A landmark of singer-songwriter history, painting personal scenery with vivid harmony and recording.",
+      "amazon_asin": ""
+    }
+  ],
+  "city-pop": [
+    {
+      "artist": "Taeko Onuki",
+      "album": "SUNSHOWER",
+      "year": 1977,
+      "note": "Transforms jazz and funk into delicate Japanese-language pop. A rediscovered masterpiece of urban music.",
+      "amazon_asin": "B0H2H7YC29"
+    },
+    {
+      "artist": "Tatsuro Yamashita",
+      "album": "FOR YOU",
+      "year": 1982,
+      "note": "Meticulous chorus work and driving rhythm vividly bind together the images of summer and the city.",
+      "amazon_asin": ""
+    }
+  ],
+  "technopop": [
+    {
+      "artist": "Yellow Magic Orchestra",
+      "album": "SOLID STATE SURVIVOR",
+      "year": 1979,
+      "note": "The definitive work that turned electronic sound from a futuristic experiment into worldwide pop.",
+      "amazon_asin": "B0000DEL9V"
+    },
+    {
+      "artist": "Perfume",
+      "album": "GAME",
+      "year": 2008,
+      "note": "Renewed technopop and idol expression, a defining work of 2000s electronic pop.",
+      "amazon_asin": ""
+    }
+  ],
+  "idol": [
+    {
+      "artist": "Seiko Matsuda",
+      "album": "Kaze Tachinu (The Wind Has Risen)",
+      "year": 1981,
+      "note": "A masterpiece of idol pop heard as an album, where highly crafted songwriting meets a true star's voice.",
+      "amazon_asin": "B00D1B8TVC"
+    }
+  ],
+  "rock": [
+    {
+      "artist": "THE BLUE HEARTS",
+      "album": "THE BLUE HEARTS",
+      "year": 1987,
+      "note": "A debut where simple words and raw impulse connect directly. A timeless gateway into Japanese-language punk.",
+      "amazon_asin": "B0GZ336Q9S"
+    },
+    {
+      "artist": "Spitz",
+      "album": "Hachimitsu (Honey)",
+      "year": 1995,
+      "note": "Brought guitar pop to a wide audience through witty wordplay and crystal-clear melody.",
+      "amazon_asin": ""
+    }
+  ],
+  "visual-kei": [
+    {
+      "artist": "L'Arc~en~Ciel",
+      "album": "HEART",
+      "year": 1998,
+      "note": "Brilliant melody and a versatile band sound coexist with remarkable density.",
+      "amazon_asin": "B004MYP0BE"
+    }
+  ],
+  "dance-rnb": [
+    {
+      "artist": "Utada Hikaru",
+      "album": "First Love",
+      "year": 1999,
+      "note": "Fused the physical feel of R&B with natural Japanese lyrics, dramatically shifting the standard for J-POP.",
+      "amazon_asin": "B00000JAT7"
+    },
+    {
+      "artist": "Namie Amuro",
+      "album": "SWEET 19 BLUES",
+      "year": 1996,
+      "note": "A symbol of the '90s where dance, fashion, and voice connected directly with the spirit of the era.",
+      "amazon_asin": ""
+    }
+  ],
+  "shibuya-kei": [
+    {
+      "artist": "quruli",
+      "album": "Zukan (Encyclopedia)",
+      "year": 2000,
+      "note": "A transitional work that broke rock's conventional forms to vividly document the city and everyday life.",
+      "amazon_asin": "B00005GXSB"
+    }
+  ],
+  "internet": [
+    {
+      "artist": "Kenshi Yonezu",
+      "album": "BOOTLEG",
+      "year": 2017,
+      "note": "Connected internet-born sensibility with popular melody, pointing to a new center of gravity.",
+      "amazon_asin": "B0756GPDSX"
+    },
+    {
+      "artist": "YOASOBI",
+      "album": "THE BOOK",
+      "year": 2021,
+      "note": "A work where the design of turning stories into music merges with the speed of the streaming era.",
+      "amazon_asin": ""
+    }
+  ],
+  "modern-pop": [
+    {
+      "artist": "King Gnu",
+      "album": "CEREMONY",
+      "year": 2020,
+      "note": "Boldly crosses rock, soul, and classical, expanding the image of what a modern band can be.",
+      "amazon_asin": "B081WRDXBK"
+    },
+    {
+      "artist": "Fujii Kaze",
+      "album": "HELP EVER HURT NEVER",
+      "year": 2020,
+      "note": "A light, distinctive debut where piano, soul, and his native Okayama dialect coexist naturally.",
+      "amazon_asin": ""
+    }
+  ],
+  "japanese-blues": [
+    {
+      "artist": "Yuka Dan",
+      "album": "Yuka Dan",
+      "year": 1975,
+      "note": "Osaka's everyday language, Mitsuteru Kimura's voice, and Kantaro Uchida's guitar crystallize into the starting point of Japanese-language blues.",
+      "amazon_asin": "B0C7SBKTNM"
+    },
+    {
+      "artist": "Masaki Ueda and South to South",
+      "album": "Kono Atsui Tamashii wo Tsutaetainya (I Want to Convey This Burning Soul)",
+      "year": 1975,
+      "note": "A key work in the history of Kansai Black music, turning the heat of soul and blues into song sung in Kansai dialect.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "West Road Blues Band",
+      "album": "BLUES POWER",
+      "year": 1975,
+      "note": "A defining record of Kansai blues, carved with reverence for Chicago blues and the momentum of young musicianship.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "Maki Asakawa",
+      "album": "Maki Asakawa no Sekai (The World of Maki Asakawa)",
+      "year": 1970,
+      "note": "An overwhelming dark texture and Japanese-language expression where jazz, blues, and underground culture intersect.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "Mitsuyoshi Azuma & The Swinging Boppers",
+      "album": "Squeezin' & Blowin'",
+      "year": 1991,
+      "note": "Delivers the pleasure of jump blues and Japanese-language humor through sharp, large-ensemble playing.",
+      "amazon_asin": ""
+    }
+  ],
+  "japanese-folk": [
+    {
+      "artist": "Nobuyasu Okabayashi",
+      "album": "Watashi wo Danzai Seyo (Condemn Me)",
+      "year": 1969,
+      "note": "An important early work that carved a sharp social gaze into Japanese-language folk.",
+      "amazon_asin": "B00B9A1CZC"
+    },
+    {
+      "artist": "Takuro Yoshida",
+      "album": "Genki Desu. (I'm Doing Fine.)",
+      "year": 1972,
+      "note": "Brought personal words and melody to a mass audience, opening the era of the singer-songwriter.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "Yosui Inoue",
+      "album": "Kōri no Sekai (World of Ice)",
+      "year": 1973,
+      "note": "Opened the door from folk to New Music with ambiguous lyrics and vivid sound.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "Kazuki Tomokawa",
+      "album": "Yatto Ichimaime (Finally, My First Record)",
+      "year": 1975,
+      "note": "A taut voice and poetry push the expressive limits of folk to their extreme.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "Hako Yamasaki",
+      "album": "Tobimasu (I'll Fly)",
+      "year": 1975,
+      "note": "Depicts loneliness and homeland in a deep voice, conveying the shadowed emotion of '70s folk.",
+      "amazon_asin": ""
+    }
+  ],
+  "ska": [
+    {
+      "artist": "MUTE BEAT",
+      "album": "STILL ECHO",
+      "year": 1987,
+      "note": "Refines dub space and ska rhythm into a landmark Japanese work that was ahead of the world.",
+      "amazon_asin": "B004ZXUF08"
+    },
+    {
+      "artist": "Tokyo Ska Paradise Orchestra",
+      "album": "Sukapara Toujou (Enter Sukapara)",
+      "year": 1990,
+      "note": "A debut that opened Japanese ska to a wide audience through festive spirit and top-tier musicianship.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "KEMURI",
+      "album": "Little Playmate",
+      "year": 1997,
+      "note": "Linked the spirit of P.M.A. with high-speed ska punk, connecting the Japanese and American scenes.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "DETERMINATIONS",
+      "album": "Full of Determination",
+      "year": 1997,
+      "note": "A landmark of Japanese ska where deep respect for its roots coexists with Osaka's energy.",
+      "amazon_asin": ""
+    },
+    {
+      "artist": "YOUR SONG IS GOOD",
+      "album": "YOUR SONG IS GOOD",
+      "year": 2004,
+      "note": "Updated ska, calypso, and soul into modern instrumental dance music.",
+      "amazon_asin": ""
+    }
+  ]
+}

@@ -1,27 +1,28 @@
 // artist-detail.js: アーティスト詳細ページ
 
-import { loadData, findArtistBySlug, isFavorite, toggleFavorite, spotifySearchUrl, appleMusicSearchUrl, wikipediaJaUrl } from "../data.js";
+import { loadData, findArtistBySlug, isFavorite, toggleFavorite, spotifySearchUrl, appleMusicSearchUrl, wikipediaUrl } from "../data.js";
 import { escapeHtml } from "../router.js";
+import { S } from "../strings.js";
 
 export async function renderArtistDetail(view, slug) {
-  view.innerHTML = `<div class="loading">読み込み中…</div>`;
+  view.innerHTML = `<div class="loading">${S.loading}</div>`;
   const { artists, genres, categoryById } = await loadData();
   const artist = findArtistBySlug(artists, slug);
 
   if (!artist) {
-    view.innerHTML = `<div class="empty-state">アーティストが見つかりませんでした。<br><a href="#/artists">一覧に戻る</a></div>`;
+    view.innerHTML = `<div class="empty-state">${S.artistNotFound}<br><a href="#/artists">${S.backToList}</a></div>`;
     return;
   }
 
-  const typeLabel = artist.type === "person" ? "個人" : "グループ";
-  const period = `${artist.begin_year ?? "不明"} 〜 ${artist.end_year ?? "現在"}`;
+  const typeLabel = artist.type === "person" ? S.person : S.group;
+  const period = `${artist.begin_year ?? S.yearUnknownShort} ${S.periodSeparator} ${artist.end_year ?? S.present}`;
   const genreLabels = artist.genreIds.map((id) => categoryById.get(id)?.label).filter(Boolean);
   const albums = artist.albums.filter((item) => ["album", "ep"].includes(releaseType(item)));
   const singles = artist.albums.filter((item) => releaseType(item) === "single");
   const selections = artist.albums.filter((item) => releaseType(item) === "selection");
 
   view.innerHTML = `
-    <p><a href="#/artists">← アーティスト一覧に戻る</a></p>
+    <p><a href="#/artists">${S.backToArtists}</a></p>
     <div class="detail-header">
       <h1>${escapeHtml(artist.name)}</h1>
       <div class="detail-meta">
@@ -32,34 +33,34 @@ export async function renderArtistDetail(view, slug) {
       </div>
       <div style="display:flex; gap:8px; flex-wrap:wrap;">
         <button class="btn fav ${isFavorite(artist.mbid) ? "is-active" : ""}" id="favBtn">
-          ${isFavorite(artist.mbid) ? "★ お気に入り解除" : "☆ お気に入りに追加"}
+          ${isFavorite(artist.mbid) ? S.favRemove : S.favAdd}
         </button>
-        <a class="btn" href="${wikipediaJaUrl(artist.name)}" target="_blank" rel="noopener">Wikipedia(日本語版)</a>
-        <a class="btn" href="${spotifySearchUrl(artist.name)}">Spotifyで検索</a>
-        <a class="btn" href="${appleMusicSearchUrl(artist.name)}" target="_blank" rel="noopener">Apple Musicで検索</a>
+        <a class="btn" href="${wikipediaUrl(artist.name)}" target="_blank" rel="noopener">${S.wikipediaLabel}</a>
+        <a class="btn" href="${spotifySearchUrl(artist.name)}">${S.spotifySearch}</a>
+        <a class="btn" href="${appleMusicSearchUrl(artist.name)}" target="_blank" rel="noopener">${S.appleMusicSearch}</a>
       </div>
     </div>
 
-    <h2 style="margin-top:28px; font-size:16px;">アルバム作品 (${albums.length}件)</h2>
+    <h2 style="margin-top:28px; font-size:16px;">${S.albumsHeading(albums.length)}</h2>
     <div class="discography">
-      ${albums.length ? albums.map((al) => albumRowHtml(artist, al, true)).join("") : `<p class="empty-hint">登録されているアルバムがありません。</p>`}
+      ${albums.length ? albums.map((al) => albumRowHtml(artist, al, true)).join("") : `<p class="empty-hint">${S.noAlbums}</p>`}
     </div>
-    ${singles.length ? `<h2 class="release-section-title">シングル (${singles.length}件)</h2><div class="discography">${singles.map((al) => albumRowHtml(artist, al, false)).join("")}</div>` : ""}
-    ${selections.length ? `<h2 class="release-section-title">主要楽曲</h2><div class="discography">${selections.map((al) => albumRowHtml(artist, al, false)).join("")}</div>` : ""}
+    ${singles.length ? `<h2 class="release-section-title">${S.singlesHeading(singles.length)}</h2><div class="discography">${singles.map((al) => albumRowHtml(artist, al, false)).join("")}</div>` : ""}
+    ${selections.length ? `<h2 class="release-section-title">${S.selectionsHeading}</h2><div class="discography">${selections.map((al) => albumRowHtml(artist, al, false)).join("")}</div>` : ""}
     ${allSongsHtml(artist)}
   `;
 
   view.querySelector("#favBtn").addEventListener("click", (e) => {
     const active = toggleFavorite(artist.mbid);
     e.target.classList.toggle("is-active", active);
-    e.target.textContent = active ? "★ お気に入り解除" : "☆ お気に入りに追加";
+    e.target.textContent = active ? S.favRemove : S.favAdd;
   });
   const songInput = view.querySelector("#artistSongSearch");
   if (songInput) songInput.addEventListener("input", () => {
     const q = songInput.value.trim().toLocaleLowerCase("ja");
     view.querySelectorAll(".all-song-item").forEach(li => li.hidden = q && !li.dataset.title.includes(q));
     const visible = [...view.querySelectorAll(".all-song-item")].filter(li => !li.hidden).length;
-    view.querySelector("#artistSongCount").textContent = `${visible}曲`;
+    view.querySelector("#artistSongCount").textContent = S.allSongsCount(visible);
   });
 }
 
@@ -67,8 +68,8 @@ function allSongsHtml(artist) {
   const seen = new Set();
   const titles = [...(artist.songs || []), ...(artist.albums || []).flatMap(a => (a.tracks || []).map(t => t.title))]
     .filter(title => { const key = title.toLocaleLowerCase("ja"); if (seen.has(key)) return false; seen.add(key); return true; });
-  if (!titles.length) return `<section class="all-songs"><h2>全楽曲</h2><p class="empty-hint">全曲データは収集中です。</p></section>`;
-  return `<section class="all-songs"><div class="all-songs-head"><h2>全楽曲 <span id="artistSongCount">${titles.length}曲</span></h2><input id="artistSongSearch" type="search" placeholder="このアーティストの曲名を検索…"></div><ol class="all-songs-grid">${titles.map(title => `<li class="all-song-item" data-title="${escapeHtml(title.toLocaleLowerCase("ja"))}"><a href="${spotifySearchUrl(`${artist.name} ${title}`)}">${escapeHtml(title)}</a></li>`).join("")}</ol></section>`;
+  if (!titles.length) return `<section class="all-songs"><h2>${S.allSongsHeading}</h2><p class="empty-hint">${S.allSongsEmpty}</p></section>`;
+  return `<section class="all-songs"><div class="all-songs-head"><h2>${S.allSongsHeading} <span id="artistSongCount">${S.allSongsCount(titles.length)}</span></h2><input id="artistSongSearch" type="search" placeholder="${S.allSongsSearchPlaceholder}"></div><ol class="all-songs-grid">${titles.map(title => `<li class="all-song-item" data-title="${escapeHtml(title.toLocaleLowerCase("ja"))}"><a href="${spotifySearchUrl(`${artist.name} ${title}`)}">${escapeHtml(title)}</a></li>`).join("")}</ol></section>`;
 }
 
 function releaseType(album) {
@@ -89,11 +90,11 @@ function albumRowHtml(artist, album, showTracks) {
       ${artwork}
       <div class="album-info">
         <span class="album-title">${escapeHtml(album.title)}</span>
-        <span class="album-year">${album.year ?? "年不明"}</span>
+        <span class="album-year">${album.year ?? S.yearUnknown}</span>
         ${album.personnel
-          ? `<div class="personnel" style="margin-top:4px; font-size:0.85em; color:var(--text-dim);">参加ミュージシャン: ${escapeHtml(album.personnel)}</div>`
+          ? `<div class="personnel" style="margin-top:4px; font-size:0.85em; color:var(--text-dim);">${S.personnelPrefix}${escapeHtml(album.personnel)}</div>`
           : album.lineup
-          ? `<div class="personnel" style="margin-top:4px; font-size:0.85em; color:var(--text-dim);">推定メンバー(発売年の在籍期間より): ${escapeHtml(album.lineup)}</div>`
+          ? `<div class="personnel" style="margin-top:4px; font-size:0.85em; color:var(--text-dim);">${S.lineupPrefix}${escapeHtml(album.lineup)}</div>`
           : ""}
         ${showTracks ? tracklistHtml(album) : ""}
       </div>
@@ -112,7 +113,7 @@ function tracklistHtml(album) {
     .join("");
   return `
     <details class="tracklist">
-      <summary>収録曲(${album.tracks.length}曲)</summary>
+      <summary>${S.tracklistSummary(album.tracks.length)}</summary>
       <ol>${items}</ol>
     </details>
   `;
