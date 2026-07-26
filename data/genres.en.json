@@ -1,0 +1,156 @@
+{
+  "categories": [
+    {
+      "id": "kayokyoku",
+      "label": "Kayokyoku / Shōwa Pops",
+      "period": "1950s–1980s",
+      "description": "The great wellspring of Japanese popular music, developed alongside broadcast and record culture."
+    },
+    {
+      "id": "folk-newmusic",
+      "label": "Folk / New Music",
+      "period": "1960s–1980s",
+      "description": "Foregrounded self-penned songs and personal lyricism, shaping the singer-songwriter culture that followed."
+    },
+    {
+      "id": "japanese-folk",
+      "label": "Japanese Folk",
+      "period": "1960s–",
+      "description": "A movement that changed Japanese song by singing social questions, daily language, and personal stories in artists' own words and music."
+    },
+    {
+      "id": "ska",
+      "label": "Ska / Ska Punk",
+      "period": "1980s–",
+      "description": "A uniquely Japanese dance music built on Jamaican ska, crossing horns, dub, and punk."
+    },
+    {
+      "id": "japanese-blues",
+      "label": "Japanese Blues / Blues Rock",
+      "period": "1960s–",
+      "description": "Reinterpreted American blues through Japanese language, dialect, and urban life, building a distinct performance culture centered on the Kansai region."
+    },
+    {
+      "id": "city-pop",
+      "label": "City Pop",
+      "period": "1970s–",
+      "description": "Fused soul, AOR, and funk with polished arrangements against a backdrop of urban life."
+    },
+    {
+      "id": "technopop",
+      "label": "Technopop / Electro",
+      "period": "1970s–",
+      "description": "Brought synthesizers and computers to the center of pop music."
+    },
+    {
+      "id": "idol",
+      "label": "Idol Pop",
+      "period": "1970s–",
+      "description": "A uniquely Japanese pop form uniting song, character, visuals, and fan culture."
+    },
+    {
+      "id": "rock",
+      "label": "J-Rock / Band Boom",
+      "period": "1980s–",
+      "description": "The mainstream of Japanese-language rock, spreading through live houses, television, and festivals."
+    },
+    {
+      "id": "visual-kei",
+      "label": "Visual Kei",
+      "period": "1980s–2000s",
+      "description": "Linked music with costume and stage design, building a distinct aesthetic and influence abroad."
+    },
+    {
+      "id": "shibuya-kei",
+      "label": "Shibuya-kei / Indie",
+      "period": "1990s–",
+      "description": "Referenced music history from Japan and abroad, showing an urban critical sensibility and DIY spirit."
+    },
+    {
+      "id": "dance-rnb",
+      "label": "Dance / R&B",
+      "period": "1990s–",
+      "description": "Club music, R&B, and hip hop advanced to the center of the charts."
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip Hop",
+      "period": "1980s–",
+      "description": "A culture refining the rhythm and rhyme of Japanese-language rap to depict regional and generational reality."
+    },
+    {
+      "id": "internet",
+      "label": "Internet / Vocaloid",
+      "period": "2000s–",
+      "description": "Music born from video sharing, Vocaloid, and social media, renewing the circuits of creation and listening."
+    },
+    {
+      "id": "modern-pop",
+      "label": "Modern J-POP",
+      "period": "2010s–",
+      "description": "An ongoing pop form freely crossing rock, soul, electronic music, and internet culture."
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "period": "",
+      "description": "Artists who cross multiple currents."
+    }
+  ],
+  "genealogy": [
+    { "from": "kayokyoku", "to": "folk-newmusic" },
+    { "from": "kayokyoku", "to": "idol" },
+    { "from": "folk-newmusic", "to": "city-pop" },
+    { "from": "city-pop", "to": "technopop" },
+    { "from": "city-pop", "to": "dance-rnb" },
+    { "from": "technopop", "to": "internet" },
+    { "from": "idol", "to": "dance-rnb" },
+    { "from": "rock", "to": "visual-kei" },
+    { "from": "rock", "to": "shibuya-kei" },
+    { "from": "dance-rnb", "to": "hiphop" },
+    { "from": "shibuya-kei", "to": "modern-pop" },
+    { "from": "internet", "to": "modern-pop" },
+    { "from": "hiphop", "to": "modern-pop" },
+    { "from": "kayokyoku", "to": "japanese-blues" },
+    { "from": "japanese-blues", "to": "rock" },
+    { "from": "folk-newmusic", "to": "japanese-blues" },
+    { "from": "kayokyoku", "to": "japanese-folk" },
+    { "from": "japanese-folk", "to": "folk-newmusic" },
+    { "from": "japanese-folk", "to": "rock" },
+    { "from": "japanese-blues", "to": "ska" },
+    { "from": "ska", "to": "rock" }
+  ],
+  "tag_map": {
+    "kayokyoku": ["kayokyoku"],
+    "new music": ["folk-newmusic"],
+    "folk": ["japanese-folk"],
+    "folk rock": ["japanese-folk", "rock"],
+    "city pop": ["city-pop"],
+    "soul": ["city-pop", "dance-rnb"],
+    "technopop": ["technopop"],
+    "electronic": ["technopop"],
+    "idol pop": ["idol"],
+    "rock": ["rock"],
+    "pop rock": ["rock", "modern-pop"],
+    "punk rock": ["rock"],
+    "new wave": ["rock", "technopop"],
+    "alternative": ["shibuya-kei", "rock"],
+    "indie": ["shibuya-kei"],
+    "visual kei": ["visual-kei"],
+    "dance pop": ["dance-rnb"],
+    "r&b": ["dance-rnb"],
+    "hip hop": ["hiphop"],
+    "internet music": ["internet", "modern-pop"],
+    "j-pop": ["modern-pop"],
+    "japanese blues": ["japanese-blues"],
+    "blues": ["japanese-blues"],
+    "blues rock": ["japanese-blues", "rock"],
+    "rhythm and blues": ["japanese-blues", "dance-rnb"],
+    "japanese folk": ["japanese-folk"],
+    "singer-songwriter": ["japanese-folk", "folk-newmusic"],
+    "ska": ["ska"],
+    "japanese ska": ["ska"],
+    "ska punk": ["ska", "rock"],
+    "2 tone": ["ska"]
+  }
+}
