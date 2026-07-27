@@ -5,3 +5,6 @@ data/songs_progress.json
 data/artwork_progress.json
 data/album_tracks_progress.json
 __pycache__/
+
+# Cloudflare Wrangler local deploy cache
+.wrangler/
