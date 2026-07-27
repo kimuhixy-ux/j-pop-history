@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kimuhixy.com/j-pop-history/sitemap.xml
